@@ -39,7 +39,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://instagram.com/dknz._"
+                href="https://instagram.com/banggiptalok._"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://github.com/Lapzy7"
+                href="https://github.com/Joshuatandilobo-unklab/MY--CV.git"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +65,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://facebook.com/share/14Lr4WYsCx"
+                href="https://www.facebook.com/joshua.tandilobo.73?mibextid=JRoKGi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
