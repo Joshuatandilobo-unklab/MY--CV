@@ -146,6 +146,12 @@ body {
   border-radius: 50%;
   object-fit: cover;
   outline: 4px solid #e41bdd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cv-section {
