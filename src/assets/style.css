@@ -156,10 +156,10 @@ body {
 
 .cv-section ul li {
   position: relative;
-  padding: 15px;
-  margin: 10px 0;
+  padding: 10px;
+  margin: 8px 0;
   border: 1px solid #e41bdd;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -176,12 +176,12 @@ body {
   height: 100%;
   width: 5px;
   background: linear-gradient(to bottom, #e41bdd, #b71592);
-  border-radius: 10px 0 0 10px;
+  border-radius: 8px 0 0 8px;
   transition: width 0.3s ease;
 }
 
 .cv-section ul li:hover::before {
-  width: 10px;
+  width: 8px;
 }
 
 .section-title {
