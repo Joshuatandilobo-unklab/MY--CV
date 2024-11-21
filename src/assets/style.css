@@ -159,7 +159,7 @@ body {
   padding: 10px;
   margin: 8px 0;
   border: 1px solid #e41bdd;
-  border-radius: 8px;
+  border-radius: px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
