@@ -252,14 +252,13 @@ body {
 }
 
 .loading-dots div {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   margin: 0 5px;
-  background-color: #ffffff;
+  background: linear-gradient(45deg, #e41bdd, #b71592);
   border-radius: 50%;
   animation: bounce 0.6s infinite alternate;
 }
-
 .loading-dots div:nth-child(2) {
   animation-delay: 0.2s;
 }
