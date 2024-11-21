@@ -20,9 +20,9 @@
 }
 
 .navigation-bar {
-  background-color: #e41bdd;
+  background: linear-gradient(90deg, #e41bdd, #b71592);
   width: 100%;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
