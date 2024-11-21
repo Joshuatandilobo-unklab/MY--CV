@@ -30,6 +30,26 @@ const Experience = () => {
     });
   }, []);
 
+  const renderContent = (content, year) => (
+    <li>
+      <strong>{content.title}</strong> {year}
+      {content.image && (
+        <div>
+          <img
+            src={content.image}
+            alt={content.title}
+            style={{
+              maxWidth: "200px",
+              borderRadius: "8px",
+              margin: "10px 0",
+            }}
+          />
+        </div>
+      )}
+      <p>{content.subTitle}</p>
+    </li>
+  );
+
   return (
     <section id="experience" className="cv-section">
       {isLoading ? (
@@ -38,18 +58,9 @@ const Experience = () => {
         <div>
           <h2 className="section-title">{experience.title}</h2>
           <ul>
-            <li>
-              <strong>{content1.title}</strong> {experience.year24}
-              <p>{content1.subTitle}</p>
-            </li>
-            <li>
-              <strong>{content2.title}</strong> {experience.year24}
-              <p>{content2.subTitle}</p>
-            </li>
-            <li>
-              <strong>{content3.title}</strong> {experience.year24}
-              <p>{content3.subTitle}</p>
-            </li>
+            {renderContent(content1, experience.year24)}
+            {renderContent(content2, experience.year24)}
+            {renderContent(content3, experience.year24)}
           </ul>
         </div>
       )}
