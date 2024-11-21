@@ -32,6 +32,22 @@
   position: relative;
 }
 
+.navigation-bar li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #e6f7ff;
+  transition: all 0.3s ease;
+}
+
+.navigation-bar li:hover::after {
+  width: 100%;
+  left: 0;
+}
+
 .navigation-bar ul {
   list-style: none;
   display: flex;
