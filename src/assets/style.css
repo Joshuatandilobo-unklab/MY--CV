@@ -224,12 +224,11 @@ body {
 
 .loading-spinner {
   border: 8px solid rgba(255, 255, 255, 0.3);
-  border-top: 8px solid #ffffff;
+  border-top: 8px solid #b71592;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   animation: spin 1s linear infinite;
-  margin: 20px auto;
 }
 
 .loading-spinner.blue {
